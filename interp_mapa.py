@@ -9,3 +9,6 @@ lati = temp_file.variables['lat'][:]
 longi = temp_file.variables['lon'][:]
 air = temp_file.variables['air'][:]
 
+fig = plt.figure(figsize=(40,10))
+
+map = Basemap(projection='mill', lat
